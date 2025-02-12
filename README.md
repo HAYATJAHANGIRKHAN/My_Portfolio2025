@@ -33,3 +33,20 @@ content: [
   @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+# Fonts 
+fonts.google.com
+search font style  in this project this font is use  (josefin sans & Roboto)     https://fonts.google.com/
+click Get Font
+click get embed code 
+select @import or linkl  we use @import 
+open index.css paste on top
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Ubuntu:wght@700&display=swap');
+
+# open tailwind.config.js
+paste this 
+ fontFamily:{
+      body: ['Josefin Sans'],
+      special:['Roboto'],
+    }
